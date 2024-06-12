@@ -1,0 +1,207 @@
+body {
+    margin: auto;
+    color: #F1FAEE;
+    background-color: #1D3557;
+    font-family: "variable";
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: variable;
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@keyframes sfmImages {
+    0%, 20%, 100% {
+        background-image: url(./img/srcflm.png);
+    }
+    30%, 40% {
+        background-image: url(./img/sfmExample1.png);
+    }
+    50%, 60% {
+        background-image: url(./img/sfmExample3.gif);
+    }
+    70%, 80%{
+        background-image: url(./img/sfmExample2.png);
+    }
+}
+
+#nav {
+    padding: 0;
+    background-color: #457B9D;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0px 2em;
+    overflow: hidden;
+    margin: 0;
+}
+
+#nav li {
+	float: left; 
+    font-size: 20pt;
+    margin: auto;
+    display: block;
+}
+
+#nav li a, a:visited {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #F1FAEE;
+}
+
+#nav li a:hover {
+    background-color: #E63946;
+}
+
+.introcard {
+    text-align: center;
+    margin: auto;
+    font-size: 40pt;
+}
+
+.introcard h1, p {
+    padding: 0;
+    margin: auto;
+}
+
+#infoCard {
+    animation: sfmImages 20s infinite;
+    background-size: 45em;
+    background-position: center;
+    width: 34%;
+    height: 22rem;
+    border-radius: 0 2em 2em 0;
+    color: #F1FAEE;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+    margin-bottom: 8em;
+}
+
+#sfmText {
+    position: absolute;
+    background-color: #457B9D;
+    background-size: 45em;
+    background-position: center;
+    width: 35em;
+    height: 22rem;
+    border-radius: 0 2em 2em 0;
+    color: #F1FAEE;
+    overflow: hidden;
+    display: inline-block;
+    z-index: -1;
+}
+
+#sfmText p {
+    float: right;
+    padding: 22px 2em;
+    max-width: 14em;
+    max-height: 352px;
+}
+
+#gameCard {
+    background: url(img/teamfortress.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 33%;
+    height: 22rem;
+    border-radius: 2em 0 0 2em;
+    color: #F1FAEE;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+    margin-bottom: 8em;
+}
+
+#gameText {
+    position: absolute;
+    background-color: #457B9D;
+    background-size: 45em;
+    background-position: center;
+    width: 35em;
+    height: 22rem;
+    border-radius: 2em 0 0 2em;
+    color: #F1FAEE;
+    overflow: hidden;
+    display: inline-block;
+    z-index: -1;
+}
+
+#gameText p {
+    float: left;
+    padding: 22px 2em;
+    max-width: 14em;
+    max-height: 352px;
+}
+
+#website {
+    background: url(./img/websitepreview.png);
+    background-size: 40em;
+    background-position: center;
+    width: 34%;
+    height: 22rem;
+    border-radius: 0 2em 2em 0;
+    color: #F1FAEE;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 8em;
+}
+
+#websiteInfo {
+    position: absolute;
+    background-color: #457B9D;
+    background-size: 45em;
+    background-position: center;
+    width: 35em;
+    height: 22rem;
+    border-radius: 0 2em 2em 0;
+    color: #F1FAEE;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#websiteInfo p {
+    float: right;
+    padding: 22px 2em;
+    max-width: 14em;
+    max-height: 352px;
+}
+
+button {
+    box-shadow: none;
+}
+
+.buttonLink {
+    background-color:  #457B9D;
+    border-color: #A8DADC;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 2em;
+    color: #F1FAEE;
+    font-size: 11pt;
+}
+
+.buttonLink:hover {
+    background-color: #E63946;
+    border-color: #457B9D;
+}
+
+.pastProjects {
+    margin: 15px;
+    width: 30%;
+    height: 300px;
+    border-radius: 2em;
+    background-color: #457B9D;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
